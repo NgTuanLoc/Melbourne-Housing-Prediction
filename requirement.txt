@@ -1,0 +1,10 @@
+library
+    - numpy
+    - pandas
+    - flask
+    - pickle
+    - sklearn
+    - matplotlib
+    - folium
+
+

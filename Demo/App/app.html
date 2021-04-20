@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<title>Demo</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	 <script type="text/javascript">
+        function picture(){ 
+        var pic = "images/img.png"
+        document.getElementById('bigpic').src = pic.replace('90x90', '500*500');
+        }
+    </script>
+</head>
+
+<body style="background-color: antiquewhite;">
+	<a href="http://127.0.0.1:5000/" class="Link"> MELBOURNE HOUSING FORECASTING</a>
+	<article class="P1">
+		<div class="Tuade1">
+			<h1>TIỀN XỬ LÝ DỮ LIỆU</h1>
+		</div>
+		<div id="Inline">
+			<div class="khung1">
+				<iframe name="khung1" height="500" width="1200" style="border: 2px solid black" ></iframe><br>
+			</div>
+			<div class="nut1">
+				<button class="buttonp1">
+					<a href="dataset/origin.htm" target="khung1">Hiển Thị Dữ Liệu</a>
+				</button>
+				<button class="buttonp1">
+					<a href="dataset/filldata.htm" target="khung1">Điền Thiếu Dữ Liệu</a>
+				</button>
+				<button class="buttonp1">
+					<a href="dataset/scaler.htm" target="khung1">Chuẩn Hoá Dữ Liệu</a>
+				</button>
+				<button class="buttonp1">
+					<a href="dataset/train.htm" target="khung1">Dữ Liệu Train</a>
+				</button>
+				<button class="buttonp1">
+					<a href="dataset/test.htm" target="khung1">Dữ Liệu Test</a>
+				</button>
+			</div>	
+		</div>
+	</article>
+
+
+
+	<article class="P2">
+		<div class="Tuade2">
+			<h1>MODEL VÀ KẾT QUẢ THỰC NGHIỆM</h1>
+		</div>
+		<div class="khungresult">
+	
+			<h2>PHƯƠNG PHÁP</h2>
+			<div class="nut2">
+				
+				<button class="buttonp2">
+					<a href="result/SVM.htm" target="khungresult"><p>SVM</p></a>
+					
+				</button>
+				<button class="buttonp2">
+					<a href="result/KNN.htm" target="khungresult"><p>KNN</p></a>
+					
+				</button>
+				<button class="buttonp2">
+					<a href="result/RF.htm" target="khungresult"><p>RF</p></a>
+					
+				</button>
+			</div><br><br><br>
+
+			<iframe name="khungresult" height="250" width="1200" style="border:2px solid black; "></iframe>
+			
+			
+		</div>
+	</article>
+	<div class='comparation-chart'>			
+			<button onclick="picture()" class="buttonpic">
+				Biểu đồ so sánh<img id="bigpic" src="bigpic">
+			</button>
+	</div>
+
+</body>
+</html>

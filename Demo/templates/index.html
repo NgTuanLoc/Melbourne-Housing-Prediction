@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Demo Data Mining</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="vendor/nouislider/nouislider.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="container">
+            <div class="signup-content">
+                <div class="signup-img">
+                    <img src="{{ url_for('static', filename='img/melbourne.jpg') }}" alt="">
+                    <div class="signup-img-content">
+                        <h2>Melbourne Houses</h2>
+                        <p>Sales Forecasting</p>
+                    </div>
+                </div>
+                <div class="signup-form">
+                    <form method="POST" class="register-form" id="register-form" action="{{ url_for('predict')}}">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <div class="form-input">
+                                    <label for="Rooms" class="required">Rooms</label>
+                                    <input type="number" name="Rooms" id="Rooms" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="Distance" class="required">Distance<label>
+                                    <input type="text" name="Distance" id="Distance" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="Bedroom2" class="required">Bedroom</label>
+                                    <input type="number" name="Bedroom2" id="Bedroom2" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="Bathroom" class="required">Bathroom</label>
+                                    <input type="number" name="Bathroom" id="Bathroom" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="Car" class="required">Car </label>
+                                    <input type="number" name="Car " id="Car " />
+                                </div>
+                                <div class="form-input">
+                                    <label for="Landsize"  class="required">Landsize </label>
+                                    <input type="text" name="Landsize " id="Landsize " />
+                                </div>
+                                <div class="form-input">
+                                    <label for="Lattitude" class="required">Lattitude</label>
+                                    <input type="text" name="Lattituder" id="Lattitude" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="Longtitude" class="required">Longtitude</label>
+                                    <input type="text" name="Longtitude" id="Longtitude" />
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">                                
+                                <div class="form-input">
+                                  <label for="Suburb" class="required">Suburb</label>
+                                  <select name="Suburb" id="Suburb" >
+                                    <option >Choose...</option>
+                                    <option >Abbotsford</option>
+                                    <option >Airport West</option>
+                                    <option >Albert Park</option>
+                                    <option >Alphington</option>
+                                    <option >Altona</option>
+                                    <option >Altona North</option>
+                                    <option >Armadale</option>
+                                    <option >Ascot Vale</option>
+                                    <option >Ashburton</option>
+                                    <option >Ashwood</option>
+                                    <option >Avondale Heights</option>
+                                    <option >Balaclava</option>
+                                    <option >Balwyn</option>
+                                    <option >Balwyn North</option>
+                                    <option >Bentleigh</option>
+                                    <option >Bentleigh East</option>
+                                    <option >Box Hill</option>
+                                    <option >Braybrook</option>
+                                    <option >Brighton</option>
+                                    <option >Brighton East</option>
+                                    <option >Brunswick</option>
+                                    <option >Brunswick West</option>
+                                    <option >Bulleen</option>
+                                    <option >Burwood</option>
+                                    <option >Camberwell</option>
+                                    <option >Canterbury</option>
+                                    <option >Carlton North</option>
+                                    <option >Carnegie</option>
+                                    <option >Caulfield</option>
+                                    <option >Caulfield North</option>
+                                    <option >Caulfield South</option>
+                                    <option >Chadstone</option>
+                                    <option >Clifton Hill</option>
+                                    <option >Coburg</option>
+                                    <option >Coburg North</option>
+                                    <option >Collingwood</option>
+                                    <option >Doncaster</option>
+                                    <option >Eaglemont</option>
+                                    <option >Elsternwick</option>
+                                    <option >Elwood</option>
+                                    <option >Essendon</option>
+                                    <option >Essendon North</option>
+                                    <option >Fairfield</option>
+                                    <option >Fitzroy</option>
+                                    <option >Fitzroy North</option>
+                                    <option >Flemington</option>
+                                    <option >Footscray</option>
+                                    <option >Glen Iris</option>
+                                    <option >Glenroy</option>
+                                    <option >Gowanbrae</option>
+                                    <option >Hadfield</option>
+                                    <option >Hampton</option>
+                                    <option >Hampton East</option>
+                                    <option >Hawthorn</option>
+                                    <option >Heidelberg Heights</option>
+                                    <option >Heidelberg West</option>
+                                    <option >Hughesdale</option>
+                                    <option >Ivanhoe</option>
+                                    <option >Kealba</option>
+                                    <option >Keilor East</option>
+                                    <option >Kensington</option>
+                                    <option >Kew</option>
+                                    <option >Kew East</option>
+                                    <option >Kooyong</option>
+                                    <option >Maidstone</option>
+                                    <option >Malvern</option>
+                                    <option >Malvern East</option>
+                                    <option >Maribyrnong</option>
+                                    <option >Melbourne</option>
+                                    <option >Middle Park</option>
+                                    <option >Mont Albert</option>
+                                    <option >Moonee Ponds</option>
+                                    <option >Moorabbin</option>
+                                    <option >Newport</option>
+                                    <option >Niddrie</option>
+                                    <option >North Melbourne</option>
+                                    <option >Northcote</option>
+                                    <option >Oak Park</option>
+                                    <option >Oakleigh South</option>
+                                    <option >Parkville</option>
+                                    <option >Pascoe Vale</option>
+                                    <option >Port Melbourne</option>
+                                    <option >Prahran</option>
+                                    <option >Preston</option>
+                                    <option >Reservoir</option>
+                                    <option >Richmond</option>
+                                    <option >Rosanna</option>
+                                    <option >Seddon</option>
+                                    <option >South Melbourne</option>
+                                    <option >South Yarra</option>
+                                    <option >Southbank</option>
+                                    <option >Spotswood</option>
+                                    <option >St Kilda</option>
+                                    <option >Strathmore</option>
+                                    <option >Sunshine</option>
+                                    <option >Sunshine North</option>
+                                    <option >Sunshine West</option>
+                                    <option >Surrey Hills</option>
+                                    <option >Templestowe Lower</option>
+                                    <option >Thornbury</option>
+                                    <option >Toorak</option>
+                                    <option >Viewbank</option>
+                                    <option >Watsonia</option>
+                                    <option >West Melbourne</option>
+                                    <option >Williamstown</option>
+                                    <option >Williamstown North</option>
+                                    <option >Windsor</option>
+                                    <option >Yallambie</option>
+                                    <option >Yarraville</option>
+                                    <option >Aberfeldie</option>
+                                    <option >Bellfield</option>
+                                    <option >Brunswick East</option>
+                                    <option >Burnley</option>
+                                    <option >Campbellfield</option>
+                                    <option >Carlton</option>
+                                    <option >East Melbourne</option>
+                                    <option >Essendon West</option>
+                                    <option >Fawkner</option>
+                                    <option >Hawthorn East</option>
+                                    <option >Heidelberg</option>
+                                    <option >Ivanhoe East</option>
+                                    <option >Jacana</option>
+                                    <option >Kingsbury</option>
+                                    <option >Kingsville</option>
+                                    <option >Murrumbeena</option>
+                                    <option >Ormond</option>
+                                    <option >West Footscray</option>
+                                    <option >Albion</option>
+                                    <option >Brooklyn</option>
+                                    <option >Glen Huntly</option>
+                                    <option >Oakleigh</option>
+                                    <option >Ripponlea</option>
+                                    <option >Cremorne</option>
+                                    <option >Docklands</option>
+                                    <option >South Kingsville</option>
+                                    <option >Strathmore Heights</option>
+                                    <option >Travancore</option>
+                                    <option >Caulfield East</option>
+                                    <option >Seaholme</option>
+                                    <option >Keilor Park</option>
+                                    <option >Gardenvale</option>
+                                    <option >Princes Hill</option>
+                                    <option >Altona Meadows</option>
+                                    <option >Ardeer</option>
+                                    <option >Attwood</option>
+                                    <option >Bayswater</option>
+                                    <option >Bayswater North</option>
+                                    <option >Beaumaris</option>
+                                    <option >Berwick</option>
+                                    <option >Blackburn</option>
+                                    <option >Blackburn South</option>
+                                    <option >Boronia</option>
+                                    <option >Briar Hill</option>
+                                    <option >Broadmeadows</option>
+                                    <option >Bundoora</option>
+                                    <option >Burnside Heights</option>
+                                    <option >Burwood East</option>
+                                    <option >Cairnlea</option>
+                                    <option >Caroline Springs</option>
+                                    <option >Cheltenham</option>
+                                    <option >Clarinda</option>
+                                    <option >Clayton</option>
+                                    <option >Clyde North</option>
+                                    <option >Craigieburn</option>
+                                    <option >Cranbourne</option>
+                                    <option >Croydon</option>
+                                    <option >Croydon Hills</option>
+                                    <option >Croydon North</option>
+                                    <option >Dandenong</option>
+                                    <option >Dandenong North</option>
+                                    <option >Diamond Creek</option>
+                                    <option >Dingley Village</option>
+                                    <option >Doncaster East</option>
+                                    <option >Donvale</option>
+                                    <option >Doreen</option>
+                                    <option >Edithvale</option>
+                                    <option >Eltham</option>
+                                    <option >Eltham North</option>
+                                    <option >Emerald</option>
+                                    <option >Epping</option>
+                                    <option >Eumemmerring</option>
+                                    <option >Ferntree Gully</option>
+                                    <option >Forest Hill</option>
+                                    <option >Frankston</option>
+                                    <option >Frankston North</option>
+                                    <option >Frankston South</option>
+                                    <option >Gisborne</option>
+                                    <option >Gladstone Park</option>
+                                    <option >Glen Waverley</option>
+                                    <option >Greensborough</option>
+                                    <option >Greenvale</option>
+                                    <option >Hallam</option>
+                                    <option >Healesville</option>
+                                    <option >Heathmont</option>
+                                    <option >Highett</option>
+                                    <option >Hillside</option>
+                                    <option >Hoppers Crossing</option>
+                                    <option >Huntingdale</option>
+                                    <option >Keilor Downs</option>
+                                    <option >Keilor Lodge</option>
+                                    <option >Keysborough</option>
+                                    <option >Kings Park</option>
+                                    <option >Lalor</option>
+                                    <option >Lower Plenty</option>
+                                    <option >Lynbrook</option>
+                                    <option >MacLeod</option>
+                                    <option >Melton</option>
+                                    <option >Melton South</option>
+                                    <option >Melton West</option>
+                                    <option >Mentone</option>
+                                    <option >Mernda</option>
+                                    <option >Mickleham</option>
+                                    <option >Mill Park</option>
+                                    <option >Mitcham</option>
+                                    <option >Montmorency</option>
+                                    <option >Montrose</option>
+                                    <option >Mordialloc</option>
+                                    <option >Mount Waverley</option>
+                                    <option >Mulgrave</option>
+                                    <option >Narre Warren</option>
+                                    <option >Noble Park</option>
+                                    <option >Nunawading</option>
+                                    <option >Oakleigh East</option>
+                                    <option >Parkdale</option>
+                                    <option >Point Cook</option>
+                                    <option >Ringwood</option>
+                                    <option >Ringwood East</option>
+                                    <option >Rockbank</option>
+                                    <option >Rowville</option>
+                                    <option >Roxburgh Park</option>
+                                    <option >Sandringham</option>
+                                    <option >Seabrook</option>
+                                    <option >Seaford</option>
+                                    <option >Skye</option>
+                                    <option >South Morang</option>
+                                    <option >Springvale</option>
+                                    <option >Springvale South</option>
+                                    <option >St Albans</option>
+                                    <option >St Helena</option>
+                                    <option >Sunbury</option>
+                                    <option >Sydenham</option>
+                                    <option >Tarneit</option>
+                                    <option >Taylors Hill</option>
+                                    <option >Taylors Lakes</option>
+                                    <option >Tecoma</option>
+                                    <option >Templestowe</option>
+                                    <option >The Basin</option>
+                                    <option >Thomastown</option>
+                                    <option >Truganina</option>
+                                    <option >Tullamarine</option>
+                                    <option >Vermont</option>
+                                    <option >Vermont South</option>
+                                    <option >Wantirna</option>
+                                    <option >Wantirna South</option>
+                                    <option >Werribee</option>
+                                    <option >Werribee South</option>
+                                    <option >Westmeadows</option>
+                                    <option >Williams Landing</option>
+                                    <option >Wollert</option>
+                                    <option >Wyndham Vale</option>
+                                    <option >Aspendale</option>
+                                    <option >Black Rock</option>
+                                    <option >Blackburn North</option>
+                                    <option >Bonbeach</option>
+                                    <option >Carrum</option>
+                                    <option >Chelsea</option>
+                                    <option >Clayton South</option>
+                                    <option >Dallas</option>
+                                    <option >Delahey</option>
+                                    <option >Doveton</option>
+                                    <option >McKinnon</option>
+                                    <option >Mooroolbark</option>
+                                    <option >Pakenham</option>
+                                    <option >Ringwood North</option>
+                                    <option >Scoresby</option>
+                                    <option >Warrandyte</option>
+                                    <option >Watsonia North</option>
+                                    <option >Wattle Glen</option>
+                                    <option >Wheelers Hill</option>
+                                    <option >Albanvale</option>
+                                    <option >Aspendale Gardens</option>
+                                    <option >Belgrave</option>
+                                    <option >Carrum Downs</option>
+                                    <option >Cranbourne East</option>
+                                    <option >Cranbourne North</option>
+                                    <option >Deer Park</option>
+                                    <option >Heatherton</option>
+                                    <option >Kilsyth</option>
+                                    <option >Langwarrin</option>
+                                    <option >Notting Hill</option>
+                                    <option >Patterson Lakes</option>
+                                    <option >Riddells Creek</option>
+                                    <option >Beaconsfield Upper</option>
+                                    <option >Chelsea Heights</option>
+                                    <option >Chirnside Park</option>
+                                    <option >Coolaroo</option>
+                                    <option >Darley</option>
+                                    <option >Hampton Park</option>
+                                    <option >Keilor</option>
+                                    <option >Meadow Heights</option>
+                                    <option >Mount Evelyn</option>
+                                    <option >North Warrandyte</option>
+                                    <option >Sandhurst</option>
+                                    <option >Silvan</option>
+                                    <option >Wallan</option>
+                                    <option >Croydon South</option>
+                                    <option >Derrimut</option>
+                                    <option >Diggers Rest</option>
+                                    <option >Knoxfield</option>
+                                    <option >Upwey</option>
+                                    <option >Warranwood</option>
+                                    <option >Bacchus Marsh</option>
+                                    <option >Bullengarook</option>
+                                    <option >Deepdene</option>
+                                    <option >Hurstbridge</option>
+                                    <option >Kurunjang</option>
+                                    <option >Laverton</option>
+                                    <option >Lilydale</option>
+                                    <option >Wonga Park</option>
+                                    <option >Endeavour Hills</option>
+                                    <option >Officer</option>
+                                    <option >Olinda</option>
+                                    <option >Waterways</option>
+                                    <option >Beaconsfield</option>
+                                    <option >Yarra Glen</option>
+                                    <option >Brookfield</option>
+                                    <option >Lysterfield</option>
+                                    <option >Plenty</option>
+                                    <option >Whittlesea</option>
+                                    <option >Burnside</option>
+                                    <option >New Gisborne</option>
+                                    <option >Guys Hill</option>
+                                    <option >Plumpton</option>
+                                    <option >Monbulk</option>
+                                    <option >Avonsleigh</option>
+                                    <option >Wildwood</option>
+                                    <option >Gisborne South</option>
+                                    <option >Research</option>
+                                    <option >Botanic Ridge</option>
+                                    <option >Bulla</option>
+                                    <option >Coldstream</option>
+                                    <option >Hopetoun Park</option>
+                                    <option >Cranbourne West</option>
+                                    <option >Eynesbury</option>
+                                    <option >Fawkner Lot</option>
+                                    <option >Ferny Creek</option>
+                                    <option >Wandin North</option>
+                                    <option >Kalkallo</option>
+                                    <option >Menzies Creek</option>            
+                                  </select>  
+                                </div>
+
+                                <div class="form-input">
+                                    <label for="Type" class="required">Type</label>
+                                    <select name="Type" id="Type">
+                                      <option value="">--Please choose an house type--</option>
+                                      <option value="h"> house/cottage/villa/semi/terrace</option>
+                                      <option value="u"> unit/ duplex</option>
+                                      <option value="t"> town house</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-input">
+                                    <label for="Method"class="required">Method</label>
+                                    <input type="text" name="Method" id="Method" />
+                                </div>
+                                                                                              
+                                <div class="form-input">
+                                    <label for="SellerG "class="required">SellerG </label>
+                                    <input type="text" name="SellerG " id="SellerG " />
+                                </div>
+
+                                <div class="form-input">
+                                    <label for="Date"class="required">Date </label>
+                                    <input type="date" name="Date " id="Date " />
+                                </div>
+
+                                <div class="form-input">
+                                    <label for="CouncilArea"class="required">CouncilArea </label>
+                                    <input  type="text" name="CouncilArea " id="CouncilArea " />
+                                </div>
+
+                                <div class="form-input">
+                                    <label for="Regionname"class="required">Regionname </label>
+                                    <input type="text" name="Regionname " id="Regionname" />
+                                </div>
+                                <div class="output">
+                                    <h4 style="background-color: antiquewhite; font-size: larger;">{{ prediction_svm}}</h4>
+                                </div>
+                                <div class="output">
+                                    <h4 style="background-color: palegreen; font-size: larger;">{{ prediction_knn}}</h4>
+                                </div>
+                                <div class="output">
+                                    <h4 style="background-color: paleturquoise; font-size: larger;">{{ prediction_rf}}</h4>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-submit">
+                            <input type="submit" value="Submit" class="submit" id="submit" name="submit" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+   
+</body>
+</html>
+
+
+

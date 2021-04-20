@@ -1,0 +1,101 @@
+,Rooms,Distance,Bedroom2,Bathroom,Car,Landsize,Lattitude,Longtitude,Suburb,Type,Method,SellerG,Date,CouncilArea,Regionname
+0,2,2.5,2,1,1,126,-37.8014,144.9958,Abbotsford,h,SS,Jellis,3/9/2016,Yarra City Council,Northern Metropolitan
+1,2,2.5,2,1,1,202,-37.7996,144.9984,Abbotsford,h,S,Biggin,3/12/2016,Yarra City Council,Northern Metropolitan
+2,2,2.5,2,1,0,156,-37.8079,144.9934,Abbotsford,h,S,Biggin,4/2/2016,Yarra City Council,Northern Metropolitan
+3,3,2.5,3,2,1,0,-37.8114,145.0116,Abbotsford,u,VB,Rounds,4/2/2016,Yarra City Council,Northern Metropolitan
+4,3,2.5,3,2,0,134,-37.8093,144.9944,Abbotsford,h,SP,Biggin,4/3/2017,Yarra City Council,Northern Metropolitan
+5,3,2.5,3,2,1,94,-37.7969,144.9969,Abbotsford,h,PI,Biggin,4/3/2017,Yarra City Council,Northern Metropolitan
+6,4,2.5,3,1,2,120,-37.8072,144.9941,Abbotsford,h,VB,Nelson,4/6/2016,Yarra City Council,Northern Metropolitan
+7,4,2.5,3,2,2,400,-37.7965,144.9965,Abbotsford,h,SN,Nelson,6/8/2016,Yarra City Council,Northern Metropolitan
+8,2,2.5,4,1,2,201,-37.7995,144.9974,Abbotsford,h,S,Biggin,6/8/2016,Yarra City Council,Northern Metropolitan
+9,2,2.5,3,2,1,202,-37.7996,144.9989,Abbotsford,h,S,Collins,6/8/2016,Yarra City Council,Northern Metropolitan
+10,2,2.5,2,1,0,181,-37.8041,144.9953,Abbotsford,h,S,Jellis,7/5/2016,Yarra City Council,Northern Metropolitan
+11,3,2.5,4,2,0,245,-37.8024,144.9993,Abbotsford,h,S,Nelson,7/5/2016,Yarra City Council,Northern Metropolitan
+12,2,2.5,2,2,1,4292,-37.8078,144.9965,Abbotsford,u,PI,Biggin,7/11/2016,Yarra City Council,Northern Metropolitan
+13,4,2.5,6,2,0,230,-37.8066,144.9936,Abbotsford,h,W,Biggin,7/11/2016,Yarra City Council,Northern Metropolitan
+14,2,2.5,2,1,2,256,-37.806,144.9954,Abbotsford,h,S,Nelson,8/10/2016,Yarra City Council,Northern Metropolitan
+15,3,2.5,3,2,2,521,-37.8076,145.0078,Abbotsford,h,S,Jellis,8/10/2016,Yarra City Council,Northern Metropolitan
+16,2,2.5,3,2,2,521,-37.8076,145.0078,Abbotsford,t,S,Jellis,8/10/2016,Yarra City Council,Northern Metropolitan
+17,1,2.5,1,1,1,0,-37.8008,144.9973,Abbotsford,u,S,Biggin,8/10/2016,Yarra City Council,Northern Metropolitan
+18,2,2.5,3,1,2,220,-37.801,144.9989,Abbotsford,h,S,Biggin,8/10/2016,Yarra City Council,Northern Metropolitan
+19,2,2.5,3,2,2,521,-37.8076,145.0078,Abbotsford,u,S,Dingle,8/10/2016,Yarra City Council,Northern Metropolitan
+20,2,2.5,2,1,1,176,-37.7998,144.9972,Abbotsford,h,SP,Biggin,10/12/2016,Yarra City Council,Northern Metropolitan
+21,2,2.5,3,2,2,521,-37.8076,145.0078,Abbotsford,u,SP,Biggin,10/12/2016,Yarra City Council,Northern Metropolitan
+22,1,2.5,3,2,2,521,-37.8076,145.0078,Abbotsford,u,SP,Purplebricks,10/12/2016,Yarra City Council,Northern Metropolitan
+23,2,2.5,2,2,1,0,-37.811,145.0067,Abbotsford,u,VB,Jellis,12/11/2016,Yarra City Council,Northern Metropolitan
+24,3,2.5,3,2,2,214,-37.8085,144.9964,Abbotsford,h,VB,Nelson,12/11/2016,Yarra City Council,Northern Metropolitan
+25,2,2.5,2,2,1,0,-37.8078,144.9965,Abbotsford,u,S,Biggin,12/11/2016,Yarra City Council,Northern Metropolitan
+26,4,2.5,3,2,2,521,-37.8084,144.9942,Abbotsford,h,S,Biggin,12/11/2016,Yarra City Council,Northern Metropolitan
+27,1,2.5,3,2,2,521,-37.8076,145.0078,Abbotsford,u,S,Biggin,12/11/2016,Yarra City Council,Northern Metropolitan
+28,2,2.5,2,1,1,195,-37.8084,144.9973,Abbotsford,h,S,Biggin,13/8/2016,Yarra City Council,Northern Metropolitan
+29,1,2.5,1,1,1,0,-37.8016,144.9988,Abbotsford,u,SP,Greg,14/5/2016,Yarra City Council,Northern Metropolitan
+30,2,2.5,2,1,2,238,-37.809,144.9976,Abbotsford,h,S,Jellis,15/10/2016,Yarra City Council,Northern Metropolitan
+31,3,2.5,3,2,2,0,-37.8093,144.9959,Abbotsford,u,PI,Philip,16/4/2016,Yarra City Council,Northern Metropolitan
+32,3,2.5,3,2,1,113,-37.8056,144.993,Abbotsford,h,S,Jellis,16/7/2016,Yarra City Council,Northern Metropolitan
+33,2,2.5,3,2,2,521,-37.8076,145.0078,Abbotsford,t,S,Jellis,16/7/2016,Yarra City Council,Northern Metropolitan
+34,2,2.5,3,2,2,521,-37.8076,145.0078,Abbotsford,h,PI,Biggin,16/7/2016,Yarra City Council,Northern Metropolitan
+35,3,2.5,2,1,1,138,-37.8021,144.9965,Abbotsford,h,S,LITTLE,16/7/2016,Yarra City Council,Northern Metropolitan
+36,3,2.5,3,1,0,183,-37.8022,144.9975,Abbotsford,h,S,Collins,17/9/2016,Yarra City Council,Northern Metropolitan
+37,2,2.5,2,1,1,150,-37.8011,145.0004,Abbotsford,h,S,Biggin,17/9/2016,Yarra City Council,Northern Metropolitan
+38,4,2.5,4,2,2,780,-37.8073,144.9952,Abbotsford,h,PI,Kay,18/3/2017,Yarra City Council,Northern Metropolitan
+39,3,2.5,3,2,1,119,-37.8082,144.9999,Abbotsford,h,SP,Nelson,18/3/2017,Yarra City Council,Northern Metropolitan
+40,3,2.5,3,2,2,0,-37.8093,144.9959,Abbotsford,t,S,Beller,18/3/2017,Yarra City Council,Northern Metropolitan
+41,3,2.5,3,2,2,4290,-37.8078,144.9965,Abbotsford,u,S,Jellis,18/3/2017,Yarra City Council,Northern Metropolitan
+42,2,2.5,2,1,1,0,-37.8015,144.9972,Abbotsford,u,S,Collins,18/6/2016,Yarra City Council,Northern Metropolitan
+43,2,2.5,2,2,1,124,-37.8079,144.9977,Abbotsford,h,PI,Biggin,18/6/2016,Yarra City Council,Northern Metropolitan
+44,2,2.5,2,1,0,147,-37.808,144.994,Abbotsford,h,S,Marshall,19/11/2016,Yarra City Council,Northern Metropolitan
+45,1,2.5,3,2,2,521,-37.8076,145.0078,Abbotsford,u,S,Biggin,19/11/2016,Yarra City Council,Northern Metropolitan
+46,1,2.5,3,2,2,521,-37.8076,145.0078,Abbotsford,u,S,hockingstuart,22/5/2016,Yarra City Council,Northern Metropolitan
+47,4,2.5,3,2,2,521,-37.8092,144.9941,Abbotsford,h,PI,Biggin,22/5/2016,Yarra City Council,Northern Metropolitan
+48,1,2.5,1,1,1,0,-37.8016,144.9988,Abbotsford,u,SP,Greg,22/8/2016,Yarra City Council,Northern Metropolitan
+49,3,2.5,3,3,1,166,-37.8017,145.0001,Abbotsford,h,PI,Nelson,22/8/2016,Yarra City Council,Northern Metropolitan
+50,1,2.5,1,1,1,0,-37.8078,144.9965,Abbotsford,u,S,Jellis,22/8/2016,Yarra City Council,Northern Metropolitan
+51,2,2.5,2,2,2,98,-37.8005,144.9952,Abbotsford,h,S,Nelson,22/8/2016,Yarra City Council,Northern Metropolitan
+52,2,2.5,3,2,2,521,-37.8076,145.0078,Abbotsford,h,S,Biggin,23/4/2016,Yarra City Council,Northern Metropolitan
+53,4,2.5,4,3,1,0,-37.7994,144.9965,Abbotsford,h,S,Collins,24/9/2016,Yarra City Council,Northern Metropolitan
+54,3,2.5,3,2,2,521,-37.7972,144.9969,Abbotsford,t,SP,Jellis,25/2/2017,Yarra City Council,Northern Metropolitan
+55,3,2.5,3,2,2,147,-37.805,144.9943,Abbotsford,h,S,Biggin,25/2/2017,Yarra City Council,Northern Metropolitan
+56,3,2.5,3,1,1,168,-37.8007,144.9958,Abbotsford,h,S,Biggin,25/2/2017,Yarra City Council,Northern Metropolitan
+57,1,2.5,1,1,1,0,-37.8055,144.9961,Abbotsford,u,S,Nelson,26/7/2016,Yarra City Council,Northern Metropolitan
+58,2,2.5,2,1,0,162,-37.8016,144.9956,Abbotsford,h,S,Jellis,27/11/2016,Yarra City Council,Northern Metropolitan
+59,3,2.5,3,2,1,120,-37.8022,144.9954,Abbotsford,h,SP,Jellis,27/11/2016,Yarra City Council,Northern Metropolitan
+60,2,2.5,3,2,2,521,-37.8076,145.0078,Abbotsford,u,PI,Biggin,28/5/2016,Yarra City Council,Northern Metropolitan
+61,2,2.5,2,1,0,182,-37.8021,144.9976,Abbotsford,h,S,Nelson,28/5/2016,Yarra City Council,Northern Metropolitan
+62,2,2.5,3,2,2,521,-37.8076,145.0078,Abbotsford,u,SP,Biggin,28/5/2016,Yarra City Council,Northern Metropolitan
+63,2,2.5,2,1,1,172,-37.8086,144.9946,Abbotsford,h,S,Biggin,30/7/2016,Yarra City Council,Northern Metropolitan
+64,4,2.5,3,2,2,521,-37.8084,144.9942,Abbotsford,h,W,Biggin,30/7/2016,Yarra City Council,Northern Metropolitan
+65,3,2.5,3,2,2,521,-37.8076,145.0078,Abbotsford,h,S,Biggin,30/7/2016,Yarra City Council,Northern Metropolitan
+66,3,13.5,3,2,1,303,-37.718,144.878,Airport West,t,PI,Nelson,3/9/2016,Moonee Valley City Council,Western Metropolitan
+67,3,13.5,3,2,1,0,-37.7203,144.8755,Airport West,h,VB,Nelson,3/12/2016,Moonee Valley City Council,Western Metropolitan
+68,3,13.5,3,2,1,0,-37.7203,144.8755,Airport West,h,SP,Nelson,4/3/2017,Moonee Valley City Council,Western Metropolitan
+69,3,13.5,3,1,1,580,-37.7235,144.8736,Airport West,h,S,Brad,4/3/2017,Moonee Valley City Council,Western Metropolitan
+70,2,13.5,2,1,1,272,-37.7294,144.888,Airport West,h,S,Nelson,4/3/2017,Moonee Valley City Council,Western Metropolitan
+71,3,13.5,3,2,2,239,-37.7218,144.8837,Airport West,t,S,Brad,4/3/2017,Moonee Valley City Council,Western Metropolitan
+72,3,13.5,2,1,1,290,-37.7273,144.8744,Airport West,h,S,Maddison,4/3/2017,Moonee Valley City Council,Western Metropolitan
+73,2,13.5,2,1,1,168,-37.7215,144.8864,Airport West,u,VB,Barry,4/3/2017,Moonee Valley City Council,Western Metropolitan
+74,2,13.5,3,2,2,521,-37.8076,145.0078,Airport West,t,VB,Barry,4/6/2016,Moonee Valley City Council,Western Metropolitan
+75,3,13.5,3,2,2,521,-37.8076,145.0078,Airport West,t,VB,Nelson,4/6/2016,Moonee Valley City Council,Western Metropolitan
+76,5,13.5,3,2,2,521,-37.8076,145.0078,Airport West,h,S,Airport,6/8/2016,Moonee Valley City Council,Western Metropolitan
+77,4,13.5,3,2,2,521,-37.8076,145.0078,Airport West,h,S,Barry,6/8/2016,Moonee Valley City Council,Western Metropolitan
+78,4,13.5,3,2,2,521,-37.8076,145.0078,Airport West,h,S,Nelson,6/8/2016,Moonee Valley City Council,Western Metropolitan
+79,3,13.5,2,1,1,620,-37.7173,144.8872,Airport West,h,S,Barry,6/8/2016,Moonee Valley City Council,Western Metropolitan
+80,4,13.5,3,1,2,597,-37.7259,144.8792,Airport West,h,S,Considine,6/8/2016,Moonee Valley City Council,Western Metropolitan
+81,6,13.5,6,3,2,976,-37.7239,144.8735,Airport West,h,SP,Barry,7/5/2016,Moonee Valley City Council,Western Metropolitan
+82,2,13.5,2,1,1,110,-37.7216,144.871,Airport West,t,S,Barry,7/5/2016,Moonee Valley City Council,Western Metropolitan
+83,2,13.5,2,1,1,141,-37.7298,144.8883,Airport West,u,S,Barry,7/11/2016,Moonee Valley City Council,Western Metropolitan
+84,3,13.5,3,2,2,521,-37.8076,145.0078,Airport West,h,VB,Nelson,8/10/2016,Moonee Valley City Council,Western Metropolitan
+85,2,13.5,2,1,1,120,-37.7234,144.8792,Airport West,u,S,Nelson,10/9/2016,Moonee Valley City Council,Western Metropolitan
+86,3,13.5,3,1,6,1063,-37.7249,144.8728,Airport West,h,PI,Rendina,10/9/2016,Moonee Valley City Council,Western Metropolitan
+87,3,13.5,3,2,2,521,-37.8076,145.0078,Airport West,u,VB,Nelson,10/9/2016,Moonee Valley City Council,Western Metropolitan
+88,3,13.5,3,1,1,0,-37.7217,144.8783,Airport West,h,S,Nelson,10/12/2016,Moonee Valley City Council,Western Metropolitan
+89,3,13.5,3,2,2,521,-37.8076,145.0078,Airport West,t,PI,Barry,10/12/2016,Moonee Valley City Council,Western Metropolitan
+90,3,13.5,3,1,1,265,-37.7302,144.8855,Airport West,u,S,Nelson,11/2/2017,Moonee Valley City Council,Western Metropolitan
+91,3,13.5,3,2,2,521,-37.8076,145.0078,Airport West,u,VB,Nelson,12/11/2016,Moonee Valley City Council,Western Metropolitan
+92,3,13.5,3,2,2,521,-37.8076,145.0078,Airport West,h,PI,Ray,12/11/2016,Moonee Valley City Council,Western Metropolitan
+93,4,13.5,3,2,2,521,-37.8076,145.0078,Airport West,h,S,Jellis,13/8/2016,Moonee Valley City Council,Western Metropolitan
+94,2,13.5,2,1,1,192,-37.7177,144.8787,Airport West,u,S,Barry,13/8/2016,Moonee Valley City Council,Western Metropolitan
+95,3,13.5,3,2,2,521,-37.8076,145.0078,Airport West,h,S,Barry,14/5/2016,Moonee Valley City Council,Western Metropolitan
+96,5,13.5,3,2,2,596,-37.7248,144.8699,Airport West,h,PI,Propertyau,14/5/2016,Moonee Valley City Council,Western Metropolitan
+97,4,13.5,3,2,2,521,-37.8076,145.0078,Airport West,h,S,Barry,15/10/2016,Moonee Valley City Council,Western Metropolitan
+98,3,13.5,3,2,2,165,-37.727,144.887,Airport West,t,PI,Brad,15/10/2016,Moonee Valley City Council,Western Metropolitan
+99,2,13.5,3,2,2,521,-37.8076,145.0078,Airport West,u,SP,Nelson,15/10/2016,Moonee Valley City Council,Western Metropolitan
